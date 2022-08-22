@@ -1,0 +1,43 @@
+/*Productos*/
+.nproductos {
+    text-align: center;
+    color: nth($colores, 17);
+
+  }
+.card1 {
+    background-color: nth($colores, 9);
+    font-family:'sarabun', italic;
+    color: nth($colores, 17);
+    margin: 40px;
+    border-radius: 20px;
+  }
+  .card2 {
+    background-color:nth($colores, 9);
+    font-family:'sarabun', italic;
+    color:nth($colores, 17);
+    margin: 40px;
+    border-radius: 20px;
+  }
+  .card3 {
+    background-color:nth($colores, 9);
+    font-family:'sarabun', italic;
+    color: nth($colores, 17);
+    margin: 40px;
+    border-radius: 20px;
+  }
+  .card4 {
+    background-color: nth($colores, 9);
+    font-family:'sarabun', italic;
+    color: nth($colores, 17);
+    margin: 40px;
+    border-radius: 20px;
+  }
+  .btn {
+    background-color:nth($colores, 11);
+    font-family:'sarabun', italic;
+    color: nth($colores, 17);
+  }
+  .container-fluid h2 {
+    font-family:'sarabun', italic;
+    color:nth($colores, 17);
+  }

@@ -1,0 +1,15 @@
+/*nosotros*/
+.nosotros {
+    height: auto;
+    padding: 30px;
+    background-color:nth($colores, 11);
+    p{
+    font-family:"ubuntu", italic ;
+    font-size:32px;
+    }
+  }
+  p::first-letter{
+    color: nth($colores, 8);
+    font-size: 30px; 
+  }
+  

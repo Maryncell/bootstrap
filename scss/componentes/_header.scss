@@ -1,0 +1,22 @@
+/*header*/
+header{
+    nav{
+        div{
+            background-color:nth($colores, 1);
+            a{
+                img{
+                    width: 150px;
+                    height: 140px;
+                }
+            }
+        }
+    }
+}
+.nav-link  {
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: 'nunito', sans-serif;
+  padding-left: 40px;
+  
+  } 
