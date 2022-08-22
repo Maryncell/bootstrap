@@ -23,6 +23,18 @@
     flex-direction: column;
     align-items: center; } }
 
+@media screen and (max-width: 715px) {
+  .box {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px; } }
+
+@media screen and (max-width: 715px) {
+  iframe {
+    width: auto;
+    height: auto; } }
+
 /*colores en lista*/
 /*header*/
 header nav div {
@@ -40,25 +52,40 @@ header nav div {
 
 /*footer*/
 footer {
+  width: 100%;
   background-color: black; }
-  footer .ins {
-    display: flex;
-    flex-direction: column; }
-    footer .ins div:nth-child(2) {
-      padding: 30px; }
-    footer .ins div h3 {
+  footer .grupo1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px; }
+    footer .grupo1 .box h2 {
       color: white;
-      font-size: 16px;
-      font-family: 'nunito', italic;
-      padding: 30px; }
-    footer .ins div img {
-      width: 50px;
-      height: 50px; }
-  footer div ul li {
-    display: inline-block;
-    text-align: center;
-    color: aliceblue;
-    margin: 20px; }
+      margin-bottom: 25px;
+      font-size: 32px; }
+    footer .grupo1 .box p {
+      color: white;
+      font-size: 16px; }
+    footer .grupo1 .box .red-social a {
+      display: inline-block;
+      text-decoration: none;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      color: white;
+      margin-right: 10px;
+      background-color: rgba(60, 51, 51, 0.3);
+      text-align: center; }
+  footer .grupo2 {
+    background-color: rgba(60, 51, 51, 0.3);
+    color: white;
+    padding: 15px 10px;
+    text-align: center; }
+    footer .grupo2 small {
+      font-size: 15px; }
 
 /*contacto*/
 .body-contacto {
@@ -291,6 +318,9 @@ p::first-letter {
   text-align: center;
   color: #7f292e; }
 
+.row d-flex align-items-lg-center {
+  justify-content: center; }
+
 .card1 {
   background-color: #edd8c1;
   font-family: 'sarabun', italic;
@@ -322,7 +352,7 @@ p::first-letter {
 .btn {
   background-color: #706c6c;
   font-family: 'sarabun', italic;
-  color: #7f292e; }
+  color: white; }
 
 .container-fluid h2 {
   font-family: 'sarabun', italic;

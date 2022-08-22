@@ -1,35 +1,50 @@
 /*footer*/
 footer{
+    width: 100%;
     background-color:nth($colores, 6 );
 
-    .ins {
-        display: flex;
-        flex-direction: column;
-        div:nth-child(2){
-            padding: 30px;
-        }
-        div{
-            h3{
+    .grupo1 {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+        .box{
+            h2{
                 color: nth($colores, 4 );
-                font-size: 16px;
-                font-family: 'nunito', italic;
-                padding: 30px;
-              
-               }
-               img{
-                width: 50px;
-                height: 50px;
+                margin-bottom: 25px;
+                font-size: 32px;
             }
-        }
-    }
-    div{
-        ul{
-            li{
-                display: inline-block;
-                text-align: center;
-                color: nth($colores, 7 );
-                margin: 20px;
+            p {color: nth($colores, 4 );
+                font-size: 16px;             
             }
-        }
+            .red-social{
+                a{display: inline-block;
+                    text-decoration: none;
+                    width: 45px;
+                    height: 45px;
+                    line-height: 45px;
+                    color: nth($colores, 4 );
+                    margin-right: 10px;
+                    background-color: nth($colores, 18 );
+                    text-align: center;
+                    
+                }                
+            }
+
+            }
+        } 
+        .grupo2{
+            background-color: nth($colores, 18 );
+            color: nth($colores, 4 );
+            padding: 15px 10px;
+            text-align: center;
+            small {
+                font-size: 15px;
+            }
+        } 
     }
-}
+    
+    

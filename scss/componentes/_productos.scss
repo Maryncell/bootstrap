@@ -4,11 +4,14 @@
     color: nth($colores, 17);
 
   }
+  .row d-flex align-items-lg-center{
+    justify-content: center;
+  }
 .card1 {
     background-color: nth($colores, 9);
     font-family:'sarabun', italic;
     color: nth($colores, 17);
-    margin: 40px;
+    margin:40px;
     border-radius: 20px;
   }
   .card2 {
@@ -35,7 +38,7 @@
   .btn {
     background-color:nth($colores, 11);
     font-family:'sarabun', italic;
-    color: nth($colores, 17);
+    color: nth($colores, 4);
   }
   .container-fluid h2 {
     font-family:'sarabun', italic;

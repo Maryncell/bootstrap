@@ -343,7 +343,7 @@ p::first-letter{
 .btn {
   background-color: #706c6c;
   font-family:'sarabun', italic;
-  color: #7f292e;
+  color: white;
 }
 .container-fluid h2 {
   font-family:'sarabun', italic;

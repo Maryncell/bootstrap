@@ -30,3 +30,17 @@
     }
  
   }
+  @media screen and ( max-width: 715px) {
+    .box {
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+      padding: 35px 0px;
+    }
+  }
+  @media screen and ( max-width: 715px) {
+    iframe{
+      width: auto;
+      height: auto;
+    }
+  }
