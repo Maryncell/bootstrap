@@ -36,6 +36,7 @@
     height: auto; } }
 
 /*colores en lista*/
+/*mapas*/
 /*header*/
 header nav div {
   background-color: #605243; }
@@ -85,7 +86,7 @@ footer {
     padding: 15px 10px;
     text-align: center; }
     footer .grupo2 small {
-      font-size: 15px; }
+      font-size: 18px; }
 
 /*contacto*/
 .body-contacto {
