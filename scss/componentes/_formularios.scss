@@ -2,7 +2,7 @@
 .body-contacto {
     box-sizing: border-box;
     background: nth($colores, 9 );
-    font-family:'sarabun', italic;
+    font-family:map-get($font, formularios);
     padding: 3px 5px;  
   }
   .contacto {
@@ -11,7 +11,7 @@
     margin-right: auto;
     color:nth($colores, 6); 
         h1 {color:nth($colores, 6);
-            font-family:'sarabun', italic;
+            font-family:map-get($font, formularios);
             font-size: 32px;
             text-align: center;
             padding: 20px 0 0 20px;
@@ -76,7 +76,7 @@
   }
    /*Inicio de sesion*/
   .iniciosesion {
-    font-family: 'roboto', sans-serif;
+    font-family: map-get($font, formularios);
     background-color: nth($colores, 15);
     opacity: 0.8;
     background-image:  radial-gradient(nth($colores, 15) 0.5px, transparent 0.5px), radial-gradient(#f2cf71 0.5px, #edd8c1 0.5px);
@@ -127,7 +127,7 @@
     border: none;
     outline: none;
     border-bottom: 1px solid var(--color);
-    font-family: 'roboto', sans-serif;
+    font-family: map-get($font, formularios);
   }
 /* transformacion y animacion de inicio de sesion*/
 
@@ -149,7 +149,7 @@
 .form-submit {
   background: nth($colores, 11);
   color: nth($colores, 12);
-  font-family:'roboto', sans-serif;
+  font-family:map-get($font, formularios);
   font-weight: 300; 
   font-size: 1rem;
   padding: .8em 0;

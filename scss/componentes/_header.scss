@@ -16,7 +16,7 @@ header{
   font-weight: bolder;
   text-decoration: none;
   font-size: 24px;
-  font-family: 'nunito', sans-serif;
+  font-family: map-get($font, navegacion);
   padding-left: 40px;
   
   } 
