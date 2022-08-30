@@ -28,7 +28,7 @@
         overflow: hidden;
         margin: 20px;
         text-align: center;
-        transform: all 0.25s;
+        transition: transform 1s ease 0.5s;
         img {
           width: 100%;
         }

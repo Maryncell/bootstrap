@@ -2,12 +2,24 @@
 .nosotros {
     height: auto;
     padding: 30px;
-    background-color:nth($colores, 11);
+    background-color:nth($colores, 4);
     p{
     font-family:"ubuntu", italic ;
     font-size:32px;
+    color: nth($colores , 14 );
     }
-  }
+      div{
+        img{
+          width: 100%;
+          max-width: 350px;
+          height: auto;
+          border-radius: 10px;
+          
+      }
+      }
+      
+    }
+  
   p::first-letter{
     color: nth($colores, 8);
     font-size: 30px; 
